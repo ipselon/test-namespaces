@@ -1,0 +1,53 @@
+[
+  {
+    "type": "ThemeContainer",
+    "props": {},
+    "children": [
+      {
+        "type": "Button",
+        "children": [],
+        "props": {},
+        "namespace": "MaterialUI"
+      }
+    ],
+    "namespace": "MaterialUI",
+    "variant": "default"
+  },
+  {
+    "type": "ThemeContainer",
+    "namespace": "MaterialUI",
+    "variant": "with 3 buttons",
+    "props": {},
+    "children": [
+      {
+        "type": "FlatButton",
+        "namespace": "MaterialUI",
+        "variant": "primary",
+        "props": {
+          "primary": true,
+          "label": "Primary",
+          "secondary": false
+        },
+        "children": []
+      },
+      {
+        "type": "FlatButton",
+        "namespace": "MaterialUI",
+        "variant": "secondary",
+        "props": {
+          "primary": false,
+          "label": "Primary",
+          "secondary": true
+        },
+        "children": []
+      },
+      {
+        "type": "RaisedButton",
+        "children": [],
+        "props": {},
+        "namespace": "MaterialUI",
+        "variant": "default"
+      }
+    ]
+  }
+]

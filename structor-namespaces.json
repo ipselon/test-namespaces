@@ -1,0 +1,42 @@
+{
+  "namespaces": {
+    "MyAppComponents": {
+      "reducerPropName": "MyAppComponents"
+    },
+    "MyLib": {
+      "reducerPropName": "MyLib"
+    }
+  },
+  "dependencies": {
+    "packages": [
+      {
+        "name": "expect",
+        "version": "1.20.2"
+      },
+      {
+        "name": "react",
+        "version": "15.4.2"
+      },
+      {
+        "name": "material-ui",
+        "version": "0.17.1"
+      },
+      {
+        "name": "react-tap-event-plugin",
+        "version": "2.0.1"
+      },
+      {
+        "name": "react-redux",
+        "version": "5.0.3"
+      },
+      {
+        "name": "redux",
+        "version": "3.6.0"
+      },
+      {
+        "name": "reselect",
+        "version": "2.5.4"
+      }
+    ]
+  }
+}

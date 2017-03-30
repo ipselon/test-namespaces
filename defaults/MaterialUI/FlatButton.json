@@ -1,0 +1,34 @@
+[
+  {
+    "type": "FlatButton",
+    "variant": "default",
+    "children": [],
+    "namespace": "MaterialUI",
+    "props": {
+      "primary": true,
+      "label": "Primary"
+    }
+  },
+  {
+    "type": "FlatButton",
+    "namespace": "MaterialUI",
+    "variant": "primary",
+    "props": {
+      "primary": true,
+      "label": "Primary",
+      "secondary": false
+    },
+    "children": []
+  },
+  {
+    "type": "FlatButton",
+    "namespace": "MaterialUI",
+    "variant": "secondary",
+    "props": {
+      "primary": false,
+      "label": "Primary",
+      "secondary": true
+    },
+    "children": []
+  }
+]

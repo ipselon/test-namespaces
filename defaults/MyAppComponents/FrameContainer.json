@@ -1,0 +1,108 @@
+[
+  {
+    "type": "FrameContainer",
+    "variant": "default",
+    "props": {},
+    "children": [
+      {
+        "type": "div",
+        "variant": "default",
+        "props": {},
+        "children": [
+          {
+            "type": "span",
+            "text": "Empty div"
+          }
+        ]
+      }
+    ],
+    "namespace": "MyAppComponents"
+  },
+  {
+    "type": "FrameContainer",
+    "namespace": "MyAppComponents",
+    "variant": "with my lib components",
+    "props": {},
+    "children": [
+      {
+        "type": "div",
+        "variant": "default",
+        "props": {},
+        "children": [
+          {
+            "type": "span",
+            "text": "Empty div"
+          }
+        ]
+      },
+      {
+        "type": "ToolBoxContainer",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MyLib"
+      },
+      {
+        "type": "Header",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MyLib"
+      },
+      {
+        "type": "Button",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MyLib"
+      }
+    ]
+  },
+  {
+    "type": "FrameContainer",
+    "namespace": "MyAppComponents",
+    "variant": "with toolbar from MyLib",
+    "props": {},
+    "children": [
+      {
+        "type": "div",
+        "variant": "default",
+        "props": {},
+        "children": [
+          {
+            "type": "span",
+            "text": "Empty div"
+          }
+        ]
+      },
+      {
+        "type": "ToolBoxContainer",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MyLib"
+      },
+      {
+        "type": "Header",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MyLib"
+      },
+      {
+        "type": "Button",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MyLib"
+      },
+      {
+        "type": "MUIToolbarContainer",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MyLib"
+      }
+    ]
+  }
+]
